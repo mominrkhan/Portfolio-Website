@@ -9,6 +9,7 @@
 body {
   font-family: "Poppins", sans-serif;
   background: #f9f9f9;
+  overflow-x: hidden;
 }
 
 html {
@@ -19,7 +20,6 @@ p {
   color: #555;
 }
 
-/* TRANSITION */
 
 a,
 .btn {
@@ -64,11 +64,11 @@ a,
 }
 
 .nav-links li {
-  margin-right: 1rem;
+  margin-right: 1rem; 
 }
 
 a {
-  color: #fff; 
+  color: #fff;
   text-decoration: none;
 }
 
@@ -83,7 +83,7 @@ a:hover {
 .logo {
   display: flex;
   align-items: center;
-  margin-left: 1rem;
+  margin-left: 1rem; 
 }
 
 .logo-img {
@@ -197,7 +197,7 @@ section {
 }
 
 .shadow-effect {
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4); 
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.4);
 }
 
 .profile__pic-container img {
@@ -263,7 +263,7 @@ section {
     padding: 1rem;
     width: 8rem;
     border-radius: 2rem;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.15); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.15);
 }
 
 .btn:hover {
@@ -290,6 +290,8 @@ section {
     background: #000;
     border-color: #000; 
 }
+
+/* 3D HOVER EFFECT */
 
 .btn-color-2 {
     background: none;
@@ -335,12 +337,6 @@ section {
   border-radius: 2rem;
 }
 
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
-
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -352,7 +348,7 @@ section {
 }
 
 .details-container p {
-  color: #fff;
+  color: #fff; 
 }
 
 .no-stroke {
@@ -379,7 +375,7 @@ section {
 
 .color-container p,
 .color-container strong {
-  color: #fff; 
+  color: #fff;
 }
 
 .project-title {
@@ -406,7 +402,7 @@ section {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  padding-bottom: 2vh;
+  padding-bottom: 2vh; 
 }
 
 .contact-info-upper-container {
